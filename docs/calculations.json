@@ -1,0 +1,85 @@
+{
+  "status": "Design examples using stated assumptions",
+  "assumptions": {
+    "R_ohm": 1000,
+    "R_tolerance_percent": 5,
+    "green_Vf_V": 2.1,
+    "red_Vf_V": 2.0,
+    "eta": 0.85,
+    "copper_rho_ohm_mm2_per_m": 0.0175,
+    "area_mm2": 0.75,
+    "one_way_length_m": 0.5
+  },
+  "green_5V": {
+    "current_mA": 2.9,
+    "resistor_power_mW": 8.41
+  },
+  "red_PWR_OK_5V_ideal": {
+    "current_mA": 3.0,
+    "resistor_power_mW": 9.0
+  },
+  "red_PWR_OK_2p4V_ideal": {
+    "current_mA": 0.3999999999999999,
+    "resistor_power_mW": 0.15999999999999992
+  },
+  "red_PWR_OK_5V_tolerance_ideal": {
+    "current_mA": 3.3684210526315788,
+    "resistor_power_mW": 10.778947368421054
+  },
+  "pwr_ok_source_test_current_mA": 0.2,
+  "green_5V_worst_assumed": {
+    "current_mA": 3.6315789473684212,
+    "resistor_power_mW": 12.528947368421054
+  },
+  "converter_24V_1A_at_12V": {
+    "output_W": 24,
+    "input_A": 2.3529411764705883,
+    "input_W": 28.235294117647058,
+    "loss_W": 4.23529411764706
+  },
+  "converter_24V_1A_at_11p4V": {
+    "output_W": 24,
+    "input_A": 2.476780185758514,
+    "input_W": 28.235294117647058,
+    "loss_W": 4.23529411764706
+  },
+  "converter_15W_at_11p2V": {
+    "output_W": 15,
+    "input_A": 1.5756302521008405,
+    "input_W": 17.647058823529413,
+    "loss_W": 2.647058823529412
+  },
+  "wire_example": {
+    "loop_R_ohm": 0.023333333333333334,
+    "current_A": 3,
+    "drop_V": 0.07,
+    "loss_W": 0.21000000000000005,
+    "drop_percent_on_3p3V": 2.1212121212121215
+  },
+  "dummy_load_example_not_fitted": {
+    "V": 5,
+    "R_ohm": 10,
+    "current_A": 0.5,
+    "power_W": 2.5
+  },
+  "fuse_candidates": [
+    {
+      "ref": "F1",
+      "assumed_continuous_A": 1.0,
+      "minimum_preliminary_rating_A": 1.3333333333333333,
+      "candidate_A": 2.0
+    },
+    {
+      "ref": "F2",
+      "assumed_continuous_A": 1.0,
+      "minimum_preliminary_rating_A": 1.3333333333333333,
+      "candidate_A": 2.0
+    },
+    {
+      "ref": "F3",
+      "assumed_continuous_A": 1.0,
+      "minimum_preliminary_rating_A": 1.3333333333333333,
+      "candidate_A": 2.0
+    }
+  ]
+}

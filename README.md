@@ -74,7 +74,7 @@ Standby power can remain active while the main switch is off. With this arrangem
 
 ### Adjustable output
 
-The ZK-4KX takes its input from the 12 V supply. It can reduce or increase voltage and includes a current-limit setting. The lower panel holder is associated with the adjustable section. In the schematic, this branch is represented as OUT+ → F4 → positive terminal, with the negative terminal connected to OUT−. The adjustable negative return goes to OUT− so that the load current follows the module's measurement path. This separate return does not provide galvanic isolation. See the [module instructions](https://aitendo3.sakura.ne.jp/aitendo_data/product_img/power/DC-DC/ZK-4KX/ZK-4KX.pdf) for operation.
+The ZK-4KX uses the 12 V supply as its input. It can step the voltage up or down and lets us set a current limit. The lower fuse holder belongs to the adjustable section. Our drawing places F4 between OUT+ and the positive terminal; the negative terminal connects to OUT−. Using OUT− keeps the load current in the module's current-measuring path. It does not electrically isolate the output from the PSU. See the [module instructions](https://aitendo3.sakura.ne.jp/aitendo_data/product_img/power/DC-DC/ZK-4KX/ZK-4KX.pdf) for operation.
 
 ### Socket, fan and lighting
 
@@ -110,7 +110,7 @@ The schematic presents the described low-voltage wiring. ATX pin numbers identif
 
 ## 5. Calculations
 
-The following design examples use stated assumptions. They are kept separate from the functional test summary.
+These calculations use the assumptions shown below. The calculated values are not measured test results.
 
 ### LED current and resistor power
 
@@ -121,9 +121,9 @@ For a series resistor, `I = (Vs − Vf) / R` and `P = I²R`.
 | Green | Vs = 5 V, Vf = 2.1 V, R = 1 kΩ | 2.9 mA | 8.41 mW |
 | Red | Ideal PWR_OK = 5 V, Vf = 2.0 V, R = 1 kΩ | 3.0 mA | 9.00 mW |
 
-For example, the green LED current is `(5 − 2.1) / 1000 = 0.0029 A`. A 0.25 W resistor has ample power margin for both examples.
+For example, the green LED current is `(5 − 2.1) / 1000 = 0.0029 A`. Both calculated resistor powers are well below 0.25 W.
 
-PWR_OK is a logic signal. Intel specifies its high level at a sourcing load of 0.2 mA. The ideal red-LED calculation asks for 3 mA, so direct drive depends on the particular PSU's output circuit. The actual current depends on the loaded signal voltage. This is an electrical limitation of the direct LED arrangement; a lit indicator alone does not establish signal-drive margin. [Intel PWR_OK specification](https://edc.intel.com/content/www/ca/fr/design/ipla/software-development-platforms/client/platforms/alder-lake-desktop/atx-version-3-0-multi-rail-desktop-platform-power-supply-design-guide/pwr-ok-required/)
+The gray PWR_OK wire is a status signal. Intel specifies its high voltage with a 0.2 mA load. Our red-LED example gives 3 mA, which is above that specified test load. The actual LED current depends on how much the signal voltage drops under load. Seeing the LED light up does not tell us whether PWR_OK stays within its voltage specification. [Intel PWR_OK specification](https://edc.intel.com/content/www/ca/fr/design/ipla/software-development-platforms/client/platforms/alder-lake-desktop/atx-version-3-0-multi-rail-desktop-platform-power-supply-design-guide/pwr-ok-required/)
 
 ### Converter input current
 
@@ -153,7 +153,7 @@ For an assumed 1 A continuous load per fixed output and a preliminary 75% loadin
 
 `Minimum nominal rating = 1 / 0.75 = 1.33 A`
 
-A 2 A fuse is a calculation candidate for each of these example loads. The rating must also suit the wire, holder, temperature, inrush and DC fault current. These are selection calculations, not a record of fitted fuse markings. The schematic therefore identifies the fuses by reference without assigning a measured rating. [Fuse selection reference](https://www.littelfuse.com/assetdocs/fuseology-selection-guide?assetguid=fa4aa360-f6c4-4eec-88a6-3d7ec3fe57d5)
+A 2 A fuse is one possible choice for this example. The final choice also depends on the wire, holder, temperature, startup current and the fuse's ability to interrupt a DC fault. This example does not identify the fuses installed in our box, so the schematic labels them F1–F4 without giving an ampere rating. [Fuse selection reference](https://www.littelfuse.com/assetdocs/fuseology-selection-guide?assetguid=fa4aa360-f6c4-4eec-88a6-3d7ec3fe57d5)
 
 [Detailed calculations](docs/calculations.md)
 
@@ -186,9 +186,9 @@ The following table summarizes the team's reported functional test results. Resu
 
 ## 8. Discussion
 
-The project helped us understand the difference between supplying power and controlling a supply. PS_ON controls the main outputs, while +5VSB and PWR_OK have different roles in the indicators. We also learned that panel-terminal colors do not have to match the original ATX wire colors.
+PS_ON, +5VSB and PWR_OK have different jobs. PS_ON turns on the main outputs, +5VSB supplies standby power, and PWR_OK indicates that the main outputs are ready. The terminal colors on our panel differ from the ATX wire colors, so we use the voltage labels when connecting a load.
 
-An LED resistor controls normal current, while a fuse disconnects a branch during an overcurrent fault. F1–F3 serve the fixed outputs. The adjustable section uses F4 in the output-side circuit model; the socket and LED strip have no separate external branch fuses. This protection arrangement and the PWR_OK LED load are important limits of the circuit. The adjustable output also depends on input power, conversion losses and cooling.
+The 1 kΩ resistors limit LED current. F1–F3 protect the fixed-output branches, and our drawing places F4 after the adjustable module. The socket and LED strip have no separate external branch fuses. These branches and the direct PWR_OK LED connection need to be considered when assessing the circuit's protection. The adjustable output is also limited by input power, conversion losses and cooling.
 
 ## 9. Operation
 
@@ -203,7 +203,7 @@ Disconnect AC and allow stored energy to discharge before changing wiring or fus
 
 ## 10. Conclusion
 
-We built a bench power supply with three fixed voltage outputs, an adjustable output and useful panel connections. The team reported passing results for the functional checks. Through this first project, we practiced wiring, component mounting, basic calculations and explaining how a complete circuit works. Working together helped us connect what we studied with a practical build.
+We built a bench power supply with 12 V, 5 V and 3.3 V terminals, an adjustable output and a 12 V accessory socket. The functional checks are summarized in Section 7. This first project gave us practice in wiring, mounting parts and calculating current and power. We worked together on the assembly and learned how the ATX control wires and adjustable module work.
 
 ## References
 

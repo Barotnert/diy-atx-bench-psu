@@ -1,0 +1,397 @@
+{
+  "revision": "1.0",
+  "count": 26,
+  "method": "EXIF orientation applied; RGB JPEG quality 88; max 1800x1800; no copied EXIF; originals unchanged",
+  "photos": [
+    {
+      "original_filename": "IMG_4238.HEIC",
+      "original_sha256": "d4e0b4eb56b39b788dabfd5fd68eab32629c534a9c2d86fb38ef38800c7c5381",
+      "original_oriented_pixels": [
+        3024,
+        4032
+      ],
+      "derived_file": "docs/images/IMG_4238.jpg",
+      "derived_sha256": "40e37e51935b7790d0d83ed219f318c92b7f7e6a4e3b3076b4b2194e557bdb6b",
+      "derived_pixels": [
+        1350,
+        1800
+      ],
+      "observation": "Internal construction view: PSU board, wiring and mechanical arrangement."
+    },
+    {
+      "original_filename": "IMG_4239.HEIC",
+      "original_sha256": "aa868d858ba1a3a5781dd4eaa2fe9387756cc09613493332c59c8e1f3da6d8fe",
+      "original_oriented_pixels": [
+        3024,
+        4032
+      ],
+      "derived_file": "docs/images/IMG_4239.jpg",
+      "derived_sha256": "3c9b9b7210d0fa47340bf245a4b7be7345c3d9732a08196f6a18cb967d74f30d",
+      "derived_pixels": [
+        1350,
+        1800
+      ],
+      "observation": "Internal construction view: PSU board, wiring and mechanical arrangement."
+    },
+    {
+      "original_filename": "IMG_4240.HEIC",
+      "original_sha256": "ee3e1e61afd7c6f8de334e648a807d4995a8a65a8c180fae2feb9d8ad91594af",
+      "original_oriented_pixels": [
+        3024,
+        4032
+      ],
+      "derived_file": "docs/images/IMG_4240.jpg",
+      "derived_sha256": "60a8336b97016aa5b2b03dab68a8932172b8a29a1c5f0bf15de53418af755802",
+      "derived_pixels": [
+        1350,
+        1800
+      ],
+      "observation": "Internal construction view: PSU board, wiring and mechanical arrangement."
+    },
+    {
+      "original_filename": "IMG_4241.HEIC",
+      "original_sha256": "356119bb360ae11ad5834c6036a9ef1433e50ccb80835e49de5c3369858e7e8d",
+      "original_oriented_pixels": [
+        3024,
+        4032
+      ],
+      "derived_file": "docs/images/IMG_4241.jpg",
+      "derived_sha256": "c8044635a98adb4734ccd0b5bdcd9801da1c2d83f78ff9a742e2a759012d0d4a",
+      "derived_pixels": [
+        1350,
+        1800
+      ],
+      "observation": "Internal construction view: PSU board, wiring and mechanical arrangement."
+    },
+    {
+      "original_filename": "IMG_4242.HEIC",
+      "original_sha256": "c830cea0c762489c71e90547d7365881afb623f3b16392c6b44e9abc3c92c887",
+      "original_oriented_pixels": [
+        3024,
+        4032
+      ],
+      "derived_file": "docs/images/IMG_4242.jpg",
+      "derived_sha256": "d1bcc95ba412f822ed4c47bd85830db60858e4dfd71c526318c5dd280268a8ee",
+      "derived_pixels": [
+        1350,
+        1800
+      ],
+      "observation": "Internal construction view: PSU board, wiring and mechanical arrangement."
+    },
+    {
+      "original_filename": "IMG_4243.HEIC",
+      "original_sha256": "d8504217edc74ed0a58c98a7ccf8e47aa3c928c554c4e67273e209d167916d7f",
+      "original_oriented_pixels": [
+        3024,
+        4032
+      ],
+      "derived_file": "docs/images/IMG_4243.jpg",
+      "derived_sha256": "6bc66cd102928348d5275c3902c9af1aae930627431af3b582e7de4e1e5e6a2d",
+      "derived_pixels": [
+        1350,
+        1800
+      ],
+      "observation": "Internal construction view: PSU board, wiring and mechanical arrangement."
+    },
+    {
+      "original_filename": "IMG_4244.HEIC",
+      "original_sha256": "041bac1851d7c2e2eab3ab9c19b3522cea044484ad84e98b58182911ce937655",
+      "original_oriented_pixels": [
+        3024,
+        4032
+      ],
+      "derived_file": "docs/images/IMG_4244.jpg",
+      "derived_sha256": "75eca10db979c3503708c05dd5304160e40eb5c9cd78b9872291f695065dc69d",
+      "derived_pixels": [
+        1350,
+        1800
+      ],
+      "observation": "Internal construction view: PSU board, wiring and mechanical arrangement."
+    },
+    {
+      "original_filename": "IMG_4245.HEIC",
+      "original_sha256": "e026f661ac817bade7ece2f7cefade41aa6aa86ce8f70f1d8176948efe772e46",
+      "original_oriented_pixels": [
+        3024,
+        4032
+      ],
+      "derived_file": "docs/images/IMG_4245.jpg",
+      "derived_sha256": "b3b3d567cb599bb7587cdfa6650121a377ce679e5c35466a89c5c39d7ee5370a",
+      "derived_pixels": [
+        1350,
+        1800
+      ],
+      "observation": "Internal construction view: PSU board, wiring and mechanical arrangement."
+    },
+    {
+      "original_filename": "IMG_4246.HEIC",
+      "original_sha256": "5c5c5a820edfd9413934d8b908b6779c4a80d17dd602d90bb6b14878ea9ad7a9",
+      "original_oriented_pixels": [
+        3024,
+        4032
+      ],
+      "derived_file": "docs/images/IMG_4246.jpg",
+      "derived_sha256": "92be5916362d3c70692792c28b4a888069cd1e65adc787951e0dcd29d71af546",
+      "derived_pixels": [
+        1350,
+        1800
+      ],
+      "observation": "Internal construction view: PSU board, wiring and mechanical arrangement."
+    },
+    {
+      "original_filename": "IMG_4295.HEIC",
+      "original_sha256": "4a97c39f03ad1eacdf4f575e450336555646dee49ffac3cc99b957ab3487581d",
+      "original_oriented_pixels": [
+        4284,
+        5712
+      ],
+      "derived_file": "docs/images/IMG_4295.jpg",
+      "derived_sha256": "f3d020a646b4951db1b26fb2bc04b90581e2154563612c7fb7f269f912e38c22",
+      "derived_pixels": [
+        1350,
+        1800
+      ],
+      "observation": "Internal construction view: PSU board, wiring and mechanical arrangement."
+    },
+    {
+      "original_filename": "IMG_4296.HEIC",
+      "original_sha256": "1d719f3cb4e599e4ee9bdfbbb32ffc34fbd1d1ae32bf27803ae5c31fffa1cf6e",
+      "original_oriented_pixels": [
+        4284,
+        5712
+      ],
+      "derived_file": "docs/images/IMG_4296.jpg",
+      "derived_sha256": "6a6ffc2c010d4c9cfb1a33b6c2b6683bf92e3ae79cfbd2183a997a0a35fd845f",
+      "derived_pixels": [
+        1350,
+        1800
+      ],
+      "observation": "Internal construction view: PSU board, wiring and mechanical arrangement."
+    },
+    {
+      "original_filename": "IMG_4297.HEIC",
+      "original_sha256": "204bfcf73c0eacb999a464d66148a4998f6172278a4b4c91a4f390eac9659ff4",
+      "original_oriented_pixels": [
+        4032,
+        3024
+      ],
+      "derived_file": "docs/images/IMG_4297.jpg",
+      "derived_sha256": "11615b9aa718ec26886ef8b28e339e411b9db205af219644836729daebe18094",
+      "derived_pixels": [
+        1800,
+        1350
+      ],
+      "observation": "Internal construction view: PSU board, wiring and mechanical arrangement."
+    },
+    {
+      "original_filename": "IMG_4298.HEIC",
+      "original_sha256": "9e3a87292b3ae6f16f678ce2550b6ed2bfef488a4114eb1345e3fc56c8dc9837",
+      "original_oriented_pixels": [
+        4032,
+        3024
+      ],
+      "derived_file": "docs/images/IMG_4298.jpg",
+      "derived_sha256": "7c74310ef7155d2abf1ee7a87ae6875b252b55b3575705959c18433555567584",
+      "derived_pixels": [
+        1800,
+        1350
+      ],
+      "observation": "Internal construction view: PSU board, wiring and mechanical arrangement."
+    },
+    {
+      "original_filename": "IMG_4303.HEIC",
+      "original_sha256": "9c384820a89b09ca55788db6e5c731064416cc302cf6d526b52ef35c71799621",
+      "original_oriented_pixels": [
+        3024,
+        4032
+      ],
+      "derived_file": "docs/images/IMG_4303.jpg",
+      "derived_sha256": "2272490b88f1aa42f0b5797c9a701f2a6364c863f9f04439eeb7cbd8e80246d1",
+      "derived_pixels": [
+        1350,
+        1800
+      ],
+      "observation": "Enclosure and illuminated LED strip."
+    },
+    {
+      "original_filename": "IMG_4305.HEIC",
+      "original_sha256": "c37299094ba0198f67cd588fbb980b8a5326b29a7dd98f1ac6503a7dd93b96b4",
+      "original_oriented_pixels": [
+        3024,
+        4032
+      ],
+      "derived_file": "docs/images/IMG_4305.jpg",
+      "derived_sha256": "8c41d8ef848aa623584875f76d1d03a2bc3fb3a15a7195658b0328a869bb5560",
+      "derived_pixels": [
+        1350,
+        1800
+      ],
+      "observation": "Heat-shrink sleeve and insulation material."
+    },
+    {
+      "original_filename": "IMG_4306.HEIC",
+      "original_sha256": "6236462d3aac942accd0506889ae37ebad3b735409f18bb679b8cdaa4b04864c",
+      "original_oriented_pixels": [
+        3024,
+        4032
+      ],
+      "derived_file": "docs/images/IMG_4306.jpg",
+      "derived_sha256": "bdb46de16de43ae0c4ada1d7b85e02fd3031001ee0b7f7874a9b482296a6dc7f",
+      "derived_pixels": [
+        1350,
+        1800
+      ],
+      "observation": "Fuse-holder cap."
+    },
+    {
+      "original_filename": "IMG_4307.HEIC",
+      "original_sha256": "2ccb811ec57dc7bfdc7f0359b8253114fe87f32a4182005463914b87b0c17000",
+      "original_oriented_pixels": [
+        3024,
+        4032
+      ],
+      "derived_file": "docs/images/IMG_4307.jpg",
+      "derived_sha256": "69f264128d723ad37b423a254fd14dfee86979afe540de2a3ac52188c12ab2d4",
+      "derived_pixels": [
+        1350,
+        1800
+      ],
+      "observation": "Green LED parts."
+    },
+    {
+      "original_filename": "IMG_4308.HEIC",
+      "original_sha256": "f6115e87714a615b5784a8d074e65fc7e0da67dfb1311d6e41717e2db703992b",
+      "original_oriented_pixels": [
+        3024,
+        4032
+      ],
+      "derived_file": "docs/images/IMG_4308.jpg",
+      "derived_sha256": "1fd8da362fd44863a06bcdf60fd8160aecd9ae6f9522e1aa8a3a2810d7d6b0c2",
+      "derived_pixels": [
+        1350,
+        1800
+      ],
+      "observation": "Red LED parts."
+    },
+    {
+      "original_filename": "IMG_4309.HEIC",
+      "original_sha256": "3b76203cee554dfc7233c21c08d468049a85be7d1ab373f2f47e0a80164bb197",
+      "original_oriented_pixels": [
+        3024,
+        4032
+      ],
+      "derived_file": "docs/images/IMG_4309.jpg",
+      "derived_sha256": "2c0103ab13df139bad76c9e0e5040349235d5eccc3fd3df45723bbf0c919a550",
+      "derived_pixels": [
+        1350,
+        1800
+      ],
+      "observation": "Drill press used during construction."
+    },
+    {
+      "original_filename": "IMG_4310.HEIC",
+      "original_sha256": "9053b60c2586ceb21dc7f075e24f38bf8551c160171c18ee8cc3868eefa9fc11",
+      "original_oriented_pixels": [
+        4284,
+        5712
+      ],
+      "derived_file": "docs/images/IMG_4310.jpg",
+      "derived_sha256": "03c9605ff5fa8ab56c557b9737f5706a3ddc94f01497dfd8945b3aaf620c30e9",
+      "derived_pixels": [
+        1350,
+        1800
+      ],
+      "observation": "Component parts in packaging."
+    },
+    {
+      "original_filename": "IMG_4311.HEIC",
+      "original_sha256": "b97eca3edbef913c3d605f12d830408fccac9c44baa1451291ce065c6965e538",
+      "original_oriented_pixels": [
+        3024,
+        4032
+      ],
+      "derived_file": "docs/images/IMG_4311.jpg",
+      "derived_sha256": "90d8e60db900b5ce6cba7b690b419cd5c0164cb59672479b931b4886d50d936e",
+      "derived_pixels": [
+        1350,
+        1800
+      ],
+      "observation": "Construction consumable bottle."
+    },
+    {
+      "original_filename": "IMG_4312.HEIC",
+      "original_sha256": "5fb8d718000a28be73fb07da67fefa623b668f548bf99ff2e023363e7e0a807d",
+      "original_oriented_pixels": [
+        3024,
+        4032
+      ],
+      "derived_file": "docs/images/IMG_4312.jpg",
+      "derived_sha256": "ce247f12044ed9e6876b3c2c1881a08d7213db6bebe7a1d556868eb1efdfa48d",
+      "derived_pixels": [
+        1350,
+        1800
+      ],
+      "observation": "Rocker switch part."
+    },
+    {
+      "original_filename": "IMG_4313.HEIC",
+      "original_sha256": "c18f9835a7de109355c9a63e9477e9a03e25252f06856ee4c49b845abc7e0e3b",
+      "original_oriented_pixels": [
+        3024,
+        4032
+      ],
+      "derived_file": "docs/images/IMG_4313.jpg",
+      "derived_sha256": "590a25aff0c3ec7924db02f0414a465488b97b517865325122ea6fb11cab6411",
+      "derived_pixels": [
+        1350,
+        1800
+      ],
+      "observation": "Blue binding-post part."
+    },
+    {
+      "original_filename": "IMG_4314.HEIC",
+      "original_sha256": "efd6eb68f4f041d2a304d5d5e339f076af0f8c2c185398c798da221ba09680a6",
+      "original_oriented_pixels": [
+        3024,
+        4032
+      ],
+      "derived_file": "docs/images/IMG_4314.jpg",
+      "derived_sha256": "c5a72fcf3b9f577cc18d9bab2ed8302a947d5dbab10dd0fb2d0f8410ac50f0db",
+      "derived_pixels": [
+        1350,
+        1800
+      ],
+      "observation": "Front panel with fixed terminals, fuse holders, ZK-4KX and adjustable terminals."
+    },
+    {
+      "original_filename": "IMG_4315.HEIC",
+      "original_sha256": "41b4e2554c216e92bbb504ec2f944304bdd9718dc41fe928a9aa1dcef0fb93ab",
+      "original_oriented_pixels": [
+        3024,
+        4032
+      ],
+      "derived_file": "docs/images/IMG_4315.jpg",
+      "derived_sha256": "ea270b957e1622fea2cf6625215315e99833a25d3d056e8a73c96083a5aca4a0",
+      "derived_pixels": [
+        1350,
+        1800
+      ],
+      "observation": "Red binding-post part."
+    },
+    {
+      "original_filename": "IMG_4316.HEIC",
+      "original_sha256": "fc8817d6c6a76852623011cf8d62dfad29527a485cf0fb15cfec0b04471cbe51",
+      "original_oriented_pixels": [
+        3024,
+        4032
+      ],
+      "derived_file": "docs/images/IMG_4316.jpg",
+      "derived_sha256": "4beb4381e8dc685d4b0ca8e5bac3c7ce126fc66530100c829d4eff0f15a40f73",
+      "derived_pixels": [
+        1350,
+        1800
+      ],
+      "observation": "Panel fuse-holder part."
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "revision": "1.0",
+  "record_type": "Team-reported qualitative test summary",
+  "basis": "Reported completion of prototype tests with passing outcomes",
+  "results": [
+    {
+      "test": "Unpowered wiring, polarity and continuity",
+      "result": "PASS",
+      "basis": "reported"
+    },
+    {
+      "test": "PS_ON switching and standby/main indication",
+      "result": "PASS",
+      "basis": "reported"
+    },
+    {
+      "test": "Startup, repeated-start and no-load operation",
+      "result": "PASS",
+      "basis": "reported"
+    },
+    {
+      "test": "Fixed-output operation under load",
+      "result": "PASS",
+      "basis": "reported"
+    },
+    {
+      "test": "Adjustable-output operation and current-limit check",
+      "result": "PASS",
+      "basis": "reported"
+    },
+    {
+      "test": "Voltage-drop check",
+      "result": "PASS",
+      "basis": "reported"
+    },
+    {
+      "test": "Ripple check",
+      "result": "PASS",
+      "basis": "reported"
+    },
+    {
+      "test": "Thermal observation",
+      "result": "PASS",
+      "basis": "reported"
+    },
+    {
+      "test": "Socket, fan and LED strip operation",
+      "result": "PASS",
+      "basis": "reported"
+    },
+    {
+      "test": "Shutdown",
+      "result": "PASS",
+      "basis": "reported"
+    }
+  ],
+  "scope": "Pass/fail functional outcomes; calculation examples are separate."
+}

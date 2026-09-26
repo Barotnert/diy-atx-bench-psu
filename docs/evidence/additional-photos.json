@@ -1,0 +1,22 @@
+{
+  "source": "Additional photographs supplied by the project team",
+  "nameplate_processing": "Rotated for readability; label content unchanged",
+  "photos": [
+    {
+      "file": "docs/images/psu-nameplate.png",
+      "sha256": "df40a244515db3f99765a69a6b3aa8661e20e88a6c0c5d35a2c825e54c28f47a"
+    },
+    {
+      "file": "docs/images/psu-ac-input.png",
+      "sha256": "a07aaba874feef4f090436042cb6ace18fd8f348db8c5c961b5af14993128d12"
+    },
+    {
+      "file": "docs/images/front-panel-current.png",
+      "sha256": "c679ba934aeb8e7adfaa91711e8075c952b4a0bfe76c480ab9137911a96754d6"
+    },
+    {
+      "file": "docs/images/completed-supply.png",
+      "sha256": "a211173fcaee9e87e46d010d4ba924e4d9143a7a9bd9ee3f9ed4497b93573224"
+    }
+  ]
+}

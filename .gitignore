@@ -1,0 +1,17 @@
+tmp/
+references/private/
+*.HEIC
+._*
+__pycache__/
+*.pyc
+*.kicad_prl
+*.lck
+*-backups/
+.history/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+submission/

@@ -1,0 +1,86 @@
+{
+  "J1": {
+    "symbol": "ATX24_LOGICAL",
+    "value": "ATX SIGNAL MAP ONLY"
+  },
+  "TP1": {
+    "symbol": "Post",
+    "value": "PWR_OK TEST"
+  },
+  "F1": {
+    "symbol": "Fuse",
+    "value": "Fuse"
+  },
+  "J2": {
+    "symbol": "Post",
+    "value": "RED +12V"
+  },
+  "F2": {
+    "symbol": "Fuse",
+    "value": "Fuse"
+  },
+  "J3": {
+    "symbol": "Post",
+    "value": "YELLOW +5V"
+  },
+  "F3": {
+    "symbol": "Fuse",
+    "value": "Fuse"
+  },
+  "J4": {
+    "symbol": "Post",
+    "value": "GREEN +3.3V"
+  },
+  "J5": {
+    "symbol": "Post",
+    "value": "BLACK COM"
+  },
+  "J8": {
+    "symbol": "Load2",
+    "value": "12V CIG. SOCKET"
+  },
+  "J9": {
+    "symbol": "Load2",
+    "value": "5V LED STRIP"
+  },
+  "M1": {
+    "symbol": "FanAssembly",
+    "value": "ORIGINAL PSU FAN"
+  },
+  "U1": {
+    "symbol": "ZK4KX",
+    "value": "ZK-4KX MODULE"
+  },
+  "F4": {
+    "symbol": "Fuse",
+    "value": "Fuse"
+  },
+  "J6": {
+    "symbol": "Post",
+    "value": "ADJ +"
+  },
+  "J7": {
+    "symbol": "Post",
+    "value": "ADJ - / NOT COM"
+  },
+  "SW1": {
+    "symbol": "Switch",
+    "value": "MAINTAINED PS_ON"
+  },
+  "R1": {
+    "symbol": "R",
+    "value": "1k"
+  },
+  "D1": {
+    "symbol": "LED",
+    "value": "GREEN / SB"
+  },
+  "R2": {
+    "symbol": "R",
+    "value": "1k"
+  },
+  "D2": {
+    "symbol": "LED",
+    "value": "RED / PWR_OK"
+  }
+}

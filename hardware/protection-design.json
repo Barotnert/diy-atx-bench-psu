@@ -1,0 +1,48 @@
+{
+  "revision": "1.5",
+  "status": "Fixed-output fuse selection example",
+  "basis": "Illustrative low-power demonstration loads. The assumed loads and 75% preliminary fuse loading factor require confirmation against the selected part, wiring, source and ambient conditions.",
+  "loading_factor": 0.75,
+  "minimum_documented_dc_voltage_V": 32,
+  "converter_input_min_V": 11.2,
+  "converter_assumed_efficiency": 0.85,
+  "converter_output_power_example_W": 15,
+  "branches": [
+    {
+      "ref": "F1",
+      "circuit": "+12 V fixed output",
+      "assumed_continuous_A": 1.0,
+      "candidate_fuse_A": 2.0,
+      "characteristic": "Fast-acting candidate; check inrush"
+    },
+    {
+      "ref": "F2",
+      "circuit": "+5 V fixed output",
+      "assumed_continuous_A": 1.0,
+      "candidate_fuse_A": 2.0,
+      "characteristic": "Fast-acting candidate; check inrush"
+    },
+    {
+      "ref": "F3",
+      "circuit": "+3.3 V fixed output",
+      "assumed_continuous_A": 1.0,
+      "candidate_fuse_A": 2.0,
+      "characteristic": "Fast-acting candidate; check inrush"
+    }
+  ],
+  "release_conditions": [
+    "Actual continuous and startup currents do not exceed the design assumptions.",
+    "Source rail, combined-power and return-path ratings support simultaneous loads.",
+    "Every wire, holder, terminal and connector is protected by the chosen time-current curve and fault-clearing energy.",
+    "The exact fuse part has a documented DC voltage rating and adequate DC breaking capacity for the prospective fault current.",
+    "Temperature derating, physical dimensions and holder compatibility are checked.",
+    "Installed fuse markings and application tests are recorded before releasing a hardware current rating."
+  ],
+  "wiring_basis": "F1\u2013F3 serve fixed terminals. F4 represents the adjustable-section holder on the OUT+ path, following the team description. The original fan is internal to the PSU. Green uses +5VSB and red uses PWR_OK through 1 kohm.",
+  "adjustable_fuse": {
+    "ref": "F4",
+    "location_in_model": "U1 OUT+ to J6 positive terminal",
+    "basis": "Team description and lower panel holder photograph",
+    "candidate_rating_A": null
+  }
+}

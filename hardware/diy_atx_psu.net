@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\Maste\OneDrive\เอกสาร\ChatGPT\Project 1\hardware\diy_atx_psu.kicad_sch</source>
+    <date>2026-09-26T10:40:25</date>
+    <tool>Eeschema 10.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>DIY ATX Bench Power Supply</title>
+        <company/>
+        <rev>1.5</rev>
+        <date>2026-09-26</date>
+        <source>diy_atx_psu.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D1">
+      <value>GREEN / SB</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Project" part="LED" description=""/>
+      <property name="Sheetname" value="diy_atx_psu"/>
+      <property name="Sheetfile" value="diy_atx_psu.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9c94323d-648d-5e64-8647-8eaab12954c6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D2">
+      <value>RED / PWR_OK</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Project" part="LED" description=""/>
+      <property name="Sheetname" value="diy_atx_psu"/>
+      <property name="Sheetfile" value="diy_atx_psu.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2417c7e0-cf8d-5c92-85a2-00478b01b677</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="F1">
+      <value>Fuse</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Project" part="Fuse" description=""/>
+      <property name="Sheetname" value="diy_atx_psu"/>
+      <property name="Sheetfile" value="diy_atx_psu.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2eb1d831-7746-592d-97dd-865b6e46550e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="F2">
+      <value>Fuse</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Project" part="Fuse" description=""/>
+      <property name="Sheetname" value="diy_atx_psu"/>
+      <property name="Sheetfile" value="diy_atx_psu.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eeff56fb-4d2b-5481-9733-042e56069845</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="F3">
+      <value>Fuse</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Project" part="Fuse" description=""/>
+      <property name="Sheetname" value="diy_atx_psu"/>
+      <property name="Sheetfile" value="diy_atx_psu.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>03825eb4-1b43-560d-a048-7199a4c96853</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="F4">
+      <value>Fuse</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Project" part="Fuse" description=""/>
+      <property name="Sheetname" value="diy_atx_psu"/>
+      <property name="Sheetfile" value="diy_atx_psu.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>27b364b2-8e4a-5fdf-bb9d-32cc0fdad418</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>ATX SIGNAL MAP ONLY</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Project" part="ATX24_LOGICAL" description=""/>
+      <property name="Sheetname" value="diy_atx_psu"/>
+      <property name="Sheetfile" value="diy_atx_psu.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ee6112ed-f72e-5e0b-9bbe-4a278900297e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="18"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="21"/>
+            <pin num="22"/>
+            <pin num="23"/>
+            <pin num="24"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>RED +12V</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Project" part="Post" description=""/>
+      <property name="Sheetname" value="diy_atx_psu"/>
+      <property name="Sheetfile" value="diy_atx_psu.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f4fd1458-26b3-5e5d-a2cf-024bbff97e7c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J3">
+      <value>YELLOW +5V</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Project" part="Post" description=""/>
+      <property name="Sheetname" value="diy_atx_psu"/>
+      <property name="Sheetfile" value="diy_atx_psu.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cae385f4-006d-5ecf-9fd9-52a4a4c6f160</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J4">
+      <value>GREEN +3.3V</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Project" part="Post" description=""/>
+      <property name="Sheetname" value="diy_atx_psu"/>
+      <property name="Sheetfile" value="diy_atx_psu.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>47719b37-ede9-55e5-bb46-fea2bddaade8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J5">
+      <value>BLACK COM</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Project" part="Post" description=""/>
+      <property name="Sheetname" value="diy_atx_psu"/>
+      <property name="Sheetfile" value="diy_atx_psu.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>16073235-f9cb-5ad3-ac04-5a9ce083c224</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J6">
+      <value>ADJ +</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Project" part="Post" description=""/>
+      <property name="Sheetname" value="diy_atx_psu"/>
+      <property name="Sheetfile" value="diy_atx_psu.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5e36427e-d610-5387-98ee-49522e36f253</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J7">
+      <value>ADJ - / NOT COM</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Project" part="Post" description=""/>
+      <property name="Sheetname" value="diy_atx_psu"/>
+      <property name="Sheetfile" value="diy_atx_psu.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>af8c836b-d61d-574a-8a21-f6916e59efa4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J8">
+      <value>12V CIG. SOCKET</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Project" part="Load2" description=""/>
+      <property name="Sheetname" value="diy_atx_psu"/>
+      <property name="Sheetfile" value="diy_atx_psu.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>40d1b230-746e-560c-a8c8-d74a000bf1b3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J9">
+      <value>5V LED STRIP</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Project" part="Load2" description=""/>
+      <property name="Sheetname" value="diy_atx_psu"/>
+      <property name="Sheetfile" value="diy_atx_psu.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>843d758b-0d17-58de-8562-71e48c0847df</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="M1">
+      <value>ORIGINAL PSU FAN</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Project" part="FanAssembly" description=""/>
+      <property name="Sheetname" value="diy_atx_psu"/>
+      <property name="Sheetfile" value="diy_atx_psu.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>94527d29-d210-5604-ac2c-3a30e7ec0153</tstamps>
+      <units>
+        <unit name="A">
+          <pins/>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>1k</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Project" part="R" description=""/>
+      <property name="Sheetname" value="diy_atx_psu"/>
+      <property name="Sheetfile" value="diy_atx_psu.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d98467ac-9049-5621-8640-49b0acc4afd2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>1k</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Project" part="R" description=""/>
+      <property name="Sheetname" value="diy_atx_psu"/>
+      <property name="Sheetfile" value="diy_atx_psu.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fc578892-99f3-508f-9d94-91c4bd23626f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW1">
+      <value>MAINTAINED PS_ON</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Project" part="Switch" description=""/>
+      <property name="Sheetname" value="diy_atx_psu"/>
+      <property name="Sheetfile" value="diy_atx_psu.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b75e50b4-e209-5b8e-afda-521c43160e14</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP1">
+      <value>PWR_OK TEST</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Project" part="Post" description=""/>
+      <property name="Sheetname" value="diy_atx_psu"/>
+      <property name="Sheetfile" value="diy_atx_psu.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3aca59ba-b609-5bf0-85bd-2c810202e354</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>ZK-4KX MODULE</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Project" part="ZK4KX" description=""/>
+      <property name="Sheetname" value="diy_atx_psu"/>
+      <property name="Sheetfile" value="diy_atx_psu.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d531ab69-2931-5afb-a7d3-7955d28145ce</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Project" part="ATX24_LOGICAL">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">ATX24_LOGICAL</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="+3V3_RAW" type="passive"/>
+        <pin num="2" name="+3V3_RAW" type="passive"/>
+        <pin num="3" name="COM" type="passive"/>
+        <pin num="4" name="+5V_RAW" type="passive"/>
+        <pin num="5" name="COM" type="passive"/>
+        <pin num="6" name="+5V_RAW" type="passive"/>
+        <pin num="7" name="COM" type="passive"/>
+        <pin num="8" name="PWR_OK" type="passive"/>
+        <pin num="9" name="+5VSB_RAW" type="passive"/>
+        <pin num="10" name="+12V_RAW" type="passive"/>
+        <pin num="11" name="+12V_RAW" type="passive"/>
+        <pin num="12" name="+3V3_RAW" type="passive"/>
+        <pin num="13" name="+3V3_RAW" type="passive"/>
+        <pin num="14" name="-12V_RAW" type="passive"/>
+        <pin num="15" name="COM" type="passive"/>
+        <pin num="16" name="PS_ON_N" type="passive"/>
+        <pin num="17" name="COM" type="passive"/>
+        <pin num="18" name="COM" type="passive"/>
+        <pin num="19" name="COM" type="passive"/>
+        <pin num="20" name="RESERVED" type="passive"/>
+        <pin num="21" name="+5V_RAW" type="passive"/>
+        <pin num="22" name="+5V_RAW" type="passive"/>
+        <pin num="23" name="+5V_RAW" type="passive"/>
+        <pin num="24" name="COM" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Project" part="FanAssembly">
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">FanAssembly</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+    </libpart>
+    <libpart lib="Project" part="Fuse">
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Project" part="LED">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Project" part="Load2">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Load2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Project" part="Post">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Post</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Project" part="R">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Project" part="Switch">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">Switch</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Project" part="ZK4KX">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ZK4KX</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="IN+" type="passive"/>
+        <pin num="2" name="IN-" type="passive"/>
+        <pin num="3" name="OUT+" type="passive"/>
+        <pin num="4" name="OUT-" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Project">
+      <uri>${KIPRJMOD}/Project.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/+3V3_POST" class="Default">
+      <node ref="F3" pin="2" pintype="passive"/>
+      <node ref="J4" pin="1" pintype="passive"/>
+    </net>
+    <net code="2" name="/+3V3_RAW" class="Default">
+      <node ref="F3" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="+3V3_RAW_1" pintype="passive"/>
+      <node ref="J1" pin="12" pinfunction="+3V3_RAW_12" pintype="passive"/>
+      <node ref="J1" pin="13" pinfunction="+3V3_RAW_13" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="+3V3_RAW_2" pintype="passive"/>
+    </net>
+    <net code="3" name="/+5VSB_RAW" class="Default">
+      <node ref="J1" pin="9" pinfunction="+5VSB_RAW_9" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="4" name="/+5V_POST" class="Default">
+      <node ref="F2" pin="2" pintype="passive"/>
+      <node ref="J3" pin="1" pintype="passive"/>
+    </net>
+    <net code="5" name="/+5V_RAW" class="Default">
+      <node ref="F2" pin="1" pintype="passive"/>
+      <node ref="J1" pin="21" pinfunction="+5V_RAW_21" pintype="passive"/>
+      <node ref="J1" pin="22" pinfunction="+5V_RAW_22" pintype="passive"/>
+      <node ref="J1" pin="23" pinfunction="+5V_RAW_23" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="+5V_RAW_4" pintype="passive"/>
+      <node ref="J1" pin="6" pinfunction="+5V_RAW_6" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="+_1" pintype="passive"/>
+    </net>
+    <net code="6" name="/+12V_POST" class="Default">
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="J2" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="/+12V_RAW" class="Default">
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="10" pinfunction="+12V_RAW_10" pintype="passive"/>
+      <node ref="J1" pin="11" pinfunction="+12V_RAW_11" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="+_1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="IN+_1" pintype="passive"/>
+    </net>
+    <net code="8" name="/ADJ_CONV_POS" class="Default">
+      <node ref="F4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="OUT+_3" pintype="passive"/>
+    </net>
+    <net code="9" name="/ADJ_NEG" class="Default">
+      <node ref="J7" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="OUT-_4" pintype="passive"/>
+    </net>
+    <net code="10" name="/ADJ_POS" class="Default">
+      <node ref="F4" pin="2" pintype="passive"/>
+      <node ref="J6" pin="1" pintype="passive"/>
+    </net>
+    <net code="11" name="/COM" class="Default">
+      <node ref="D1" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="J1" pin="15" pinfunction="COM_15" pintype="passive"/>
+      <node ref="J1" pin="17" pinfunction="COM_17" pintype="passive"/>
+      <node ref="J1" pin="18" pinfunction="COM_18" pintype="passive"/>
+      <node ref="J1" pin="19" pinfunction="COM_19" pintype="passive"/>
+      <node ref="J1" pin="24" pinfunction="COM_24" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="COM_3" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="COM_5" pintype="passive"/>
+      <node ref="J1" pin="7" pinfunction="COM_7" pintype="passive"/>
+      <node ref="J5" pin="1" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="-_2" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="-_2" pintype="passive"/>
+      <node ref="SW1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="IN-_2" pintype="passive"/>
+    </net>
+    <net code="12" name="/PS_ON_N" class="Default">
+      <node ref="J1" pin="16" pinfunction="PS_ON_N_16" pintype="passive"/>
+      <node ref="SW1" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="/PWR_OK" class="Default">
+      <node ref="J1" pin="8" pinfunction="PWR_OK_8" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="TP1" pin="1" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(D1-A)" class="Default">
+      <node ref="D1" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(D2-A)" class="Default">
+      <node ref="D2" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="16" name="unconnected-(J1--12V_RAW-Pad14)" class="Default">
+      <node ref="J1" pin="14" pinfunction="-12V_RAW_14" pintype="passive+no_connect"/>
+    </net>
+    <net code="17" name="unconnected-(J1-RESERVED-Pad20)" class="Default">
+      <node ref="J1" pin="20" pinfunction="RESERVED_20" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

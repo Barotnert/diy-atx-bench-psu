@@ -1,0 +1,8 @@
+{
+  "files.encoding": "utf8",
+  "files.eol": "\n",
+  "editor.wordWrap": "on",
+  "files.exclude": {"**/*.kicad_prl": true, "**/__pycache__": true},
+  "search.exclude": {"tmp": true, "references/private": true},
+  "markdown.preview.fontSize": 15
+}

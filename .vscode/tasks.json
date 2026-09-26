@@ -1,0 +1,9 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {"label": "PSU: verify project", "type": "process", "command": "powershell.exe", "args": ["-NoProfile", "-ExecutionPolicy", "Bypass", "-File", "${workspaceFolder}/scripts/run.ps1", "verify"], "problemMatcher": [], "group": {"kind": "test", "isDefault": true}},
+    {"label": "PSU: calculate", "type": "process", "command": "powershell.exe", "args": ["-NoProfile", "-ExecutionPolicy", "Bypass", "-File", "${workspaceFolder}/scripts/run.ps1", "calculate"], "problemMatcher": []},
+    {"label": "PSU: export schematic", "type": "process", "command": "powershell.exe", "args": ["-NoProfile", "-ExecutionPolicy", "Bypass", "-File", "${workspaceFolder}/scripts/run.ps1", "export"], "problemMatcher": []},
+    {"label": "PSU: open KiCad schematic", "type": "process", "command": "powershell.exe", "args": ["-NoProfile", "-ExecutionPolicy", "Bypass", "-File", "${workspaceFolder}/scripts/run.ps1", "open-kicad"], "problemMatcher": []}
+  ]
+}
